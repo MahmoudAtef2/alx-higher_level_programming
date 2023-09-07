@@ -65,7 +65,6 @@ test with none value:
 
 tests with infinity:
     >>> add_integer(float('inf'))
-      Traceback (most recent call last):
-    ...
+    Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
 
