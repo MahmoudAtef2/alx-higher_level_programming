@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """Function make addition of two numbers."""
 
+
 def add_integer(a, b=98):
     """Adds two numbers a and b.
-    
+
     Args:
         a: the first number.
         b: the second number, default 98.
