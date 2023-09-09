@@ -54,6 +54,7 @@ test a as str:
 
 test b as str:
 
+    >>> add_integer(5, "test")
     Traceback (most recent call last):
     TypeError: b must be an integer
 
