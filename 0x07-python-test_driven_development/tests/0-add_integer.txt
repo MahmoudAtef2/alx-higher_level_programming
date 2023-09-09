@@ -49,8 +49,9 @@ test a as str:
 
 test b as str:
 
-    >>> add_integer(5, "test")
+    >>> add_integer(123123, [])
     Traceback (most recent call last):
+        ...
     TypeError: b must be an integer
 
 test a and b as str:
