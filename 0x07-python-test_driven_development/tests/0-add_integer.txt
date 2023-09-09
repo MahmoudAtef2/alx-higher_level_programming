@@ -49,7 +49,7 @@ test a as str:
 
 test b as str:
 
-    >>> add_integer(123123, [])
+    >>> add_integer(123, "2")
     Traceback (most recent call last):
         ...
     TypeError: b must be an integer
