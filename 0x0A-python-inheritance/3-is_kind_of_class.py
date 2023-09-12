@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''function that check if an object is instance of a class 
+'''function that check if an object is instance of a class
 or calss that inherited from'''
 
 
