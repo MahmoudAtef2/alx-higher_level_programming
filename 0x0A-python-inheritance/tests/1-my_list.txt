@@ -5,6 +5,10 @@ tests for 1-mylist.py
 Import function:
     >>> MyList = __import__('1-my_list').MyList
 
+Correct Instance test:
+    >>> mylist = MyList()
+    >>> isinstance(mylist, list)
+    True
 
 Test that MyList inherits from list:
     >>> issubclass(MyList, list)
