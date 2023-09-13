@@ -13,6 +13,9 @@ Test class type:
 
 area() Tests
 ----------------------
+Test area method is an instance method:
+    >>> type(BaseGeometry.__dict__['area'])
+    <class 'function'>
 
 Test area without args:
     >>> bg.area()
