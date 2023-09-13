@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-'''Model Square calss'''
+'''Model for Rectangle calss'''
 Rectangle = __import__('9-rectangle.py').Rectangle
 
 
 class Square(Rectangle):
     '''subclass of rectangle class'''
-
     def __init__(self, size):
         '''constructor'''
         self.integer_validator("size", size)
