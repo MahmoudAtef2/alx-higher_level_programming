@@ -90,3 +90,18 @@ Test integer_validator with 3 args:
     >>> bg.integer_validator(1, 2, 3)
     Traceback (most recent call last):
     TypeError: integer_validator() takes 3 positional arguments but 4 were given
+
+Test integer_validator with tuple:
+    >>> bg.integer_validator("test", (1, 2))
+    Traceback (most recent call last):
+    TypeError: test must be an integer
+
+Test integer_validator with dic:
+    >>> bg.integer_validator("test", {1, 2})
+    Traceback (most recent call last):
+    TypeError: test must be an integer
+
+Test integer_validator with list:
+    >>> bg.integer_validator("test", [1])
+    Traceback (most recent call last):
+    TypeError: test must be an integer
