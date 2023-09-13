@@ -11,30 +11,30 @@ Test class type:
     >>> type(bg) == BaseGeometry
     True
 
-area() Tests
+
+area() instance method
 ----------------------
-Test area method is an instance method:
+area method is an instance method:
     >>> type(BaseGeometry.__dict__['area'])
     <class 'function'>
 
-Test area without args:
-    >>> bg.area()
-    Traceback (most recent call last):
-    Exception: area() is not implemented
-
-Test area called via class without args:
+area method called via class with no args:
     >>> bg.__class__.area()
     Traceback (most recent call last):
     TypeError: area() missing 1 required positional argument: 'self'
 
-Test area with 1 arg:
-    >>> bg.area(5)
+area method args test (1 arg):
+    >>> bg.area(10)
     Traceback (most recent call last):
     TypeError: area() takes 1 positional argument but 2 were given
 
+area method normal test:
+    >>> bg.area()
+    Traceback (most recent call last):
+    Exception: area() is not implemented
+
 integer_validator() Tests
 -----------------------------------
-
 Test integer_validator:
     >>> bg.integer_validator("test", 5)
 
