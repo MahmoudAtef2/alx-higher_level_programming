@@ -4,7 +4,7 @@ Rectangle = __import__('9-rectangle.py').Rectangle
 
 
 class Square(Rectangle):
-    '''subclass of rectangle class'''
+    '''A subclass of rectangle class'''
     def __init__(self, size):
         '''constructor'''
         self.integer_validator("size", size)
