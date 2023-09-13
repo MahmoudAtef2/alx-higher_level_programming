@@ -74,12 +74,12 @@ Test value as boolean:
 Test integer_validator with one arg:
     >>> bg.integer_validator("test")
     Traceback (most recent call last):
-    TypeError: BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+    TypeError: integer_validator() missing 1 required positional argument: 'value'
 
 Test integer_validator without arg:
     >>> bg.integer_validator()
     Traceback (most recent call last):
-    TypeError: BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+    TypeError: integer_validator() missing 2 required positional arguments: 'name' and 'value'
 
 Test integer_validator called via class without args:
     >>> bg.__class__.integer_validator()
