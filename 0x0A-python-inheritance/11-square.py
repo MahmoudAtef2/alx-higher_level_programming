@@ -1,20 +1,20 @@
 #!/usr/bin/python3
-'''Model for Rectangle calss'''
-Rectangle = __import__('9-rectangle.py').Rectangle
+'''Module for Rectangle class.'''
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    '''subclass of rectangle class'''
+    '''A subclass representing a rectangle.'''
     def __init__(self, size):
-        '''constructor'''
+        '''Constructor.'''
         self.integer_validator("size", size)
         self.__size = size
         super().__init__(size, size)
 
     def area(self):
-        '''Method that return the area of square'''
+        '''Method for area of square.'''
         return self.__size ** 2
 
     def __str__(self):
-        '''str reoresentation of square'''
-        return f"[Square] {str(self.__size)}/{str(self.__size)}"
+        '''Returns string representation of this square.'''
+        return "[Square] " + str(self.__size) + "/" + str(self.__size)
