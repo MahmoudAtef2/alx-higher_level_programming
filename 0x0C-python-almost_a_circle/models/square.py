@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for Base Rectangle'''
+'''Module for Square class'''
 from models.rectangle import Rectangl
 
 
@@ -53,5 +53,5 @@ class Square(Rectangle):
                     self.y = v
 
     def to_dictionary(self):
-        """Return dictionary representation of a Rectangle"""
+        '''Return dictionary representation of a Rectangle'''
         return {"id": self.id, "size": self.width, "x": self.x, "y": self.y}
