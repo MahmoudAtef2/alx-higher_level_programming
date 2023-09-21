@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''Module for Square class'''
-from models.rectangle import Rectangl
+from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
@@ -40,7 +40,6 @@ class Square(Rectangle):
                 elif a == 3:
                     self.y = arg
                 a += 1
-
         elif kwargs:
             for k, v in kwargs.items():
                 if k == "id":
