@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''Module for Base Rectangle'''
-from models.base import Base
+from models.rectangle import Rectangl
 
 
 class Square(Rectangle):
