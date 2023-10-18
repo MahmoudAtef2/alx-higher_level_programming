@@ -1,0 +1,2 @@
+-- lists all shows contained in hbtn_0d_tvshows that have at least one genre linked
+-- lists all rows of a database that have one column in common
